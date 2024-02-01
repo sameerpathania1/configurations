@@ -2,7 +2,6 @@ postgres configuration ec2
 
 1. sudo apt install postgresql
 2. edit file /etc/postgresql/*/main/postgresql.conf
-	uncomment code and set to 
 	listen_addresses = '*'
 3. sudo -u postgres psql template1
 	ALTER USER postgres with encrypted password 'password123';
